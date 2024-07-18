@@ -29,7 +29,7 @@ class Vehicle:
 class Sedan(Vehicle):
     __PASSENGERS_LIMIT = 5
 
-#Пример использования
+
 vehicle1 = Sedan('Fedos', 'Toyota Mark II', 'blue', 500)
 vehicle1.print_info()
 
